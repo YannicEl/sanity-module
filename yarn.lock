@@ -835,7 +835,7 @@ __metadata:
     defu: 5.0.1
     eslint: 8.9.0
     fs-extra: 10.0.0
-    happy-dom: 2.33.1
+    happy-dom: 2.39.1
     husky: 7.0.4
     knitwork: 0.1.0
     lint-staged: 12.3.4
@@ -3664,6 +3664,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"css.escape@npm:^1.5.1":
+  version: 1.5.1
+  resolution: "css.escape@npm:1.5.1"
+  checksum: f6d38088d870a961794a2580b2b2af1027731bb43261cfdce14f19238a88664b351cc8978abc20f06cc6bbde725699dec8deb6fe9816b139fc3f2af28719e774
+  languageName: node
+  linkType: hard
+
 "cssesc@npm:^3.0.0":
   version: 3.0.0
   resolution: "cssesc@npm:3.0.0"
@@ -5984,17 +5991,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"happy-dom@npm:2.33.1":
-  version: 2.33.1
-  resolution: "happy-dom@npm:2.33.1"
+"happy-dom@npm:2.39.1":
+  version: 2.39.1
+  resolution: "happy-dom@npm:2.39.1"
   dependencies:
+    css.escape: ^1.5.1
     he: ^1.1.1
     node-fetch: ^2.6.1
     sync-request: ^6.1.0
     webidl-conversions: ^7.0.0
     whatwg-encoding: ^1.0.5
     whatwg-mimetype: ^2.3.0
-  checksum: 6a6bca9037afdb0c214ad9959abaaf33c928fcc8a9eafe7341cdcb37f038be89d35aa2223dd1cae091a71160e329f6c3c642eecef8947c0381e2f017825a5892
+  checksum: f0c51c6beddb3f5e5f1a6270ca61e113db1d2cd08474dea659ec1ba433ece7aebf0e563b2f104386f5f113661ccb3cabacc77adfb5b29ead65a0a40b38bf55b7
   languageName: node
   linkType: hard
 
