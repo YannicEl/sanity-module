@@ -68,7 +68,7 @@
     "nuxi": "0.10.1",
     "nuxt3": "latest",
     "release-it": "14.12.4",
-    "vitest": "0.3.6"
+    "vitest": "0.4.1"
   },
   "publishConfig": {
     "access": "public"
